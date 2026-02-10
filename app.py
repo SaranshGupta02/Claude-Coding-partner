@@ -43,6 +43,10 @@ with st.sidebar:
     model = st.selectbox("Select Model", ["anthropic/claude-3.5-sonnet", "anthropic/claude-3-opus", "anthropic/claude-3-haiku"], index=0)
     
     st.divider()
+    st.image(
+    "https://drive.google.com/uc?export=view&id=1wYSMgJtARFdvTt5g7E20mE4NmwUFUuog",
+    width=200
+)
     st.markdown("Made with ❤️ by BuildFastWithAI")
 
 # --- Initialize Chat History ---
